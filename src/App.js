@@ -12,7 +12,7 @@ function App() {
   return (
   <>
   <Router>
-   <Header/> 
+    <Header/> 
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/profile' element={<Profile/>}/>
@@ -26,5 +26,6 @@ function App() {
   </>
   );
 }
+
 
 export default App;
